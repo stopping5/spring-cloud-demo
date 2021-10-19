@@ -1,0 +1,40 @@
+# 端口号
+server:
+  port: 8001
+
+# 模块名称
+spring:
+  application:
+    name: cloud-payment-service
+  # 数据源
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://www.stopping.top:3306/test?useUnicode=true&useSSL=false&characterEncoding=utf8
+    username: root
+    password: Gaokao222.
+  # zipkin
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      # 采样率 0~1 1全部采样
+      probability: 1
+# mybatis
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.stopping.cloud.com.stopping.cloud.entities
+# Euraka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka
+    # 注册Eureka
+    register-with-eureka: true
+    # 检索
+    fetch-registry: true
+  # 实例名称
+  instance:
+    # 显示名称
+    instance-id: payment-service-8001
+    # 访问路径显示ip
+    prefer-ip-address: true

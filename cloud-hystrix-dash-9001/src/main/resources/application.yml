@@ -1,0 +1,16 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: hystrix-turbine
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7002/eureka/,http://localhost:7001/eureka/
+  instance:
+    instance-id: hystrix-turbine
+    prefer-ip-address: true
+turbine:
+  app-config: order-comsumer-hystrix-80,cloud-payment-service

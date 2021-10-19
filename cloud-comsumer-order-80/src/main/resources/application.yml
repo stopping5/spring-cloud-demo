@@ -1,0 +1,28 @@
+# 端口号
+server:
+  port: 80
+
+# 模块名称
+spring:
+  application:
+    name: cloud-consumer-order-80
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      probability: 1
+# Euraka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka
+    # 注册Eureka
+    register-with-eureka: true
+    # 检索
+    fetch-registry: true
+  # 实例名称
+  instance:
+    # 显示名称
+    instance-id: order-service-80
+    # 访问路径显示ip
+    prefer-ip-address: true

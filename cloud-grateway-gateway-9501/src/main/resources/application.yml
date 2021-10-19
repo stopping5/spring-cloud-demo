@@ -1,0 +1,33 @@
+server:
+  port: 9501
+
+spring:
+  application:
+    name: cloud-gateway-01
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: path_route_01
+          # lb://表示服务均衡（loadBalance） gateway会去注册中心获取地址
+          # uri: http://localhost:8002
+          uri: lb://cloud-payment-service
+          predicates:
+            - Path=/payment/discovery,/payment/get/{id}
+# Euraka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka
+    # 注册Eureka
+    register-with-eureka: true
+    # 检索
+    fetch-registry: true
+  # 实例名称
+  instance:
+    # 显示名称
+    instance-id: ${spring.application.name}
+    # 访问路径显示ip
+    prefer-ip-address: true

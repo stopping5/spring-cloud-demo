@@ -1,0 +1,37 @@
+server:
+  port: 4433
+spring:
+  application:
+    name: cloud-config-4433
+  cloud:
+    # 配置config server 信息
+    config:
+      server:
+        git:
+          # github路径
+          uri: git@github.com:stopping5/spring-cloud-config.git
+          # 目录
+          search-paths:
+            - spring-cloud-config
+      # 默认分支
+      label: master
+  # 消息队列配置
+  rabbitmq:
+    host: www.stopping.top
+    port: 34566
+    username: root
+    password: root
+
+# 注册到Eureka
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka
+# 暴露刷新节点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"

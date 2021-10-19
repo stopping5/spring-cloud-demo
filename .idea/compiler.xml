@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-payment-consul-8004" />
+        <module name="cloud-stream-ek-producter-8801" />
+        <module name="cloud-comsumer-order-ekHystrix-80" />
+        <module name="cloud-eureka-server70001" />
+        <module name="cloud-gateway" />
+        <module name="cloud-hystrix-dash-9001" />
+        <module name="cloud-gateway-gateway-9502" />
+        <module name="cloud-comsumer-order-80" />
+        <module name="cloud-grateway-gateway-9501" />
+        <module name="cloud-stream-ek-8802" />
+        <module name="cloud-stream-ek-8803" />
+        <module name="cloud-alibaba-config-nacos-3377" />
+        <module name="cloud-api-commons" />
+        <module name="cloud-payment-zk-8003" />
+        <module name="cloud-comsumer-order-zk-80" />
+        <module name="cloud-payment-hystrix-8005" />
+        <module name="cloud-payment-8001" />
+        <module name="cloud-payment-8002" />
+        <module name="cloud-euraka-server7002" />
+        <module name="cloud-comsumer-order-feignEureka-80" />
+        <module name="cloud-config-cloud-eureka-3356" />
+        <module name="cloud-comsumer-order-consul-80" />
+        <module name="cloud-config-cloud-eureka-3355" />
+        <module name="cloud-config-3344" />
+        <module name="cloud-alibaba-nacos-provider-9001" />
+        <module name="cloud-alibaba-nacos-provider-9002" />
+        <module name="cloud-alibaba-nacos-consumer-9003" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="biz-1" target="1.8" />
+      <module name="client-biz-1" target="1.8" />
+      <module name="cloud-alibaba-config-nacos-3377" target="1.8" />
+      <module name="cloud-alibaba-nacos-consumer-9003" target="1.8" />
+      <module name="cloud-alibaba-nacos-provider-9001" target="1.8" />
+      <module name="cloud-alibaba-nacos-provider-9002" target="1.8" />
+      <module name="cloud-api-commons" target="1.8" />
+      <module name="cloud-comsumer-order-80" target="1.8" />
+      <module name="cloud-comsumer-order-consul-80" target="1.8" />
+      <module name="cloud-comsumer-order-ekHystrix-80" target="1.8" />
+      <module name="cloud-comsumer-order-feignEureka-80" target="1.8" />
+      <module name="cloud-comsumer-order-zk-80" target="1.8" />
+      <module name="cloud-config-3344" target="1.8" />
+      <module name="cloud-config-cloud-eureka-3355" target="1.8" />
+      <module name="cloud-config-cloud-eureka-3356" target="1.8" />
+      <module name="cloud-euraka-server7002" target="1.8" />
+      <module name="cloud-eureka-server70001" target="1.8" />
+      <module name="cloud-gateway" target="1.8" />
+      <module name="cloud-gateway-gateway-9502" target="1.8" />
+      <module name="cloud-grateway-gateway-9501" target="1.8" />
+      <module name="cloud-hystrix-dash-9001" target="1.8" />
+      <module name="cloud-payment-8001" target="1.8" />
+      <module name="cloud-payment-8002" target="1.8" />
+      <module name="cloud-payment-consul-8004" target="1.8" />
+      <module name="cloud-payment-hystrix-8005" target="1.8" />
+      <module name="cloud-payment-zk-8003" target="1.8" />
+      <module name="cloud-payment-zk-8003 (1)" target="1.8" />
+      <module name="cloud-register" target="1.8" />
+      <module name="cloud-stream-ek-8802" target="1.8" />
+      <module name="cloud-stream-ek-8803" target="1.8" />
+      <module name="cloud-stream-ek-producter-8801" target="1.8" />
+      <module name="spring-cloud-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="biz-1" options="-parameters" />
+      <module name="client-biz-1" options="-parameters" />
+      <module name="cloud-gateway" options="-parameters" />
+      <module name="cloud-register" options="-parameters" />
+      <module name="spring-cloud-demo" options="" />
+    </option>
+  </component>
+</project>

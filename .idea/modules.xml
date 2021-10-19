@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-alibaba-config-nacos-3377/cloud-alibaba-config-nacos-3377.iml" filepath="$PROJECT_DIR$/cloud-alibaba-config-nacos-3377/cloud-alibaba-config-nacos-3377.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-alibaba-nacos-consumer-9003/cloud-alibaba-nacos-consumer-9003.iml" filepath="$PROJECT_DIR$/cloud-alibaba-nacos-consumer-9003/cloud-alibaba-nacos-consumer-9003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-alibaba-nacos-provider-9001/cloud-alibaba-nacos-provider-9001.iml" filepath="$PROJECT_DIR$/cloud-alibaba-nacos-provider-9001/cloud-alibaba-nacos-provider-9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-alibaba-nacos-provider-9002/cloud-alibaba-nacos-provider-9002.iml" filepath="$PROJECT_DIR$/cloud-alibaba-nacos-provider-9002/cloud-alibaba-nacos-provider-9002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" filepath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-comsumer-order-80/cloud-comsumer-order-80.iml" filepath="$PROJECT_DIR$/cloud-comsumer-order-80/cloud-comsumer-order-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-comsumer-order-consul-80/cloud-comsumer-order-consul-80.iml" filepath="$PROJECT_DIR$/cloud-comsumer-order-consul-80/cloud-comsumer-order-consul-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-comsumer-order-ekHystrix-80/cloud-comsumer-order-ekHystrix-80.iml" filepath="$PROJECT_DIR$/cloud-comsumer-order-ekHystrix-80/cloud-comsumer-order-ekHystrix-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-comsumer-order-feignEureka-80/cloud-comsumer-order-feignEureka-80.iml" filepath="$PROJECT_DIR$/cloud-comsumer-order-feignEureka-80/cloud-comsumer-order-feignEureka-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-comsumer-order-zk-80/cloud-comsumer-order-zk-80.iml" filepath="$PROJECT_DIR$/cloud-comsumer-order-zk-80/cloud-comsumer-order-zk-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-3344/cloud-config-3344.iml" filepath="$PROJECT_DIR$/cloud-config-3344/cloud-config-3344.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-cloud-eureka-3355/cloud-config-cloud-eureka-3355.iml" filepath="$PROJECT_DIR$/cloud-config-cloud-eureka-3355/cloud-config-cloud-eureka-3355.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-cloud-eureka-3356/cloud-config-cloud-eureka-3356.iml" filepath="$PROJECT_DIR$/cloud-config-cloud-eureka-3356/cloud-config-cloud-eureka-3356.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-euraka-server7002/cloud-euraka-server7002.iml" filepath="$PROJECT_DIR$/cloud-euraka-server7002/cloud-euraka-server7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server70001/cloud-eureka-server70001.iml" filepath="$PROJECT_DIR$/cloud-eureka-server70001/cloud-eureka-server70001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-gateway-gateway-9502/cloud-gateway-gateway-9502.iml" filepath="$PROJECT_DIR$/cloud-gateway-gateway-9502/cloud-gateway-gateway-9502.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-grateway-gateway-9501/cloud-grateway-gateway-9501.iml" filepath="$PROJECT_DIR$/cloud-grateway-gateway-9501/cloud-grateway-gateway-9501.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-hystrix-dash-9001/cloud-hystrix-dash-9001.iml" filepath="$PROJECT_DIR$/cloud-hystrix-dash-9001/cloud-hystrix-dash-9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-payment-8001/cloud-payment-8001.iml" filepath="$PROJECT_DIR$/cloud-payment-8001/cloud-payment-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-payment-8002/cloud-payment-8002.iml" filepath="$PROJECT_DIR$/cloud-payment-8002/cloud-payment-8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-payment-consul-8004/cloud-payment-consul-8004.iml" filepath="$PROJECT_DIR$/cloud-payment-consul-8004/cloud-payment-consul-8004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-payment-hystrix-8005/cloud-payment-hystrix-8005.iml" filepath="$PROJECT_DIR$/cloud-payment-hystrix-8005/cloud-payment-hystrix-8005.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-payment-zk-8003/cloud-payment-zk-8003.iml" filepath="$PROJECT_DIR$/cloud-payment-zk-8003/cloud-payment-zk-8003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-stream-ek-8802/cloud-stream-ek-8802.iml" filepath="$PROJECT_DIR$/cloud-stream-ek-8802/cloud-stream-ek-8802.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-stream-ek-8803/cloud-stream-ek-8803.iml" filepath="$PROJECT_DIR$/cloud-stream-ek-8803/cloud-stream-ek-8803.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-stream-ek-producter-8801/cloud-stream-ek-producter-8801.iml" filepath="$PROJECT_DIR$/cloud-stream-ek-producter-8801/cloud-stream-ek-producter-8801.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-demo.iml" />
+    </modules>
+  </component>
+</project>

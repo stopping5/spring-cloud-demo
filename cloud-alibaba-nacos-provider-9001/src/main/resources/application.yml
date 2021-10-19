@@ -1,0 +1,29 @@
+server:
+  port: 9001
+
+spring:
+  redis:
+    sentinel:
+      master: redis-master
+      nodes: 139.224.113.113:26379,139.224.113.113:26380,139.224.113.113:26381
+    # lettuce
+    lettuce:
+      pool:
+        max-active: 10
+        max-idle: 8
+        max-wait: -1
+        min-idle: 0
+    connect-timeout: 5000
+  application:
+    name: nacos-payment-provider
+  cloud:
+    # nacos服务发现注册配置
+    nacos:
+      discovery:
+        server-addr: www.stopping.top:8848
+# 节点暴露
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

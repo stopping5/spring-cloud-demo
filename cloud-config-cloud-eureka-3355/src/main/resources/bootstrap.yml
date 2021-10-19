@@ -1,0 +1,31 @@
+server:
+  port: 3355
+spring:
+  application:
+    name: cloud-config-client
+  cloud:
+    config:
+      # /{label}/{application}-{profile}.yml
+      # 分支
+      label: master
+      # 服务名称
+      name: config
+      # 版本
+      profile: dev
+      uri: http://localhost:4433
+  rabbitmq:
+    host: www.stopping.top
+    port: 34566
+    username: root
+    password: root
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka
+# 暴露监控点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

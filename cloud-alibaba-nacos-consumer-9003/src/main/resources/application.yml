@@ -1,0 +1,17 @@
+server:
+  port: 9003
+spring:
+  application:
+    name:  nacos-order-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: www.stopping.top:8848
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+service:
+  provider:
+    payment-url: http://nacos-payment-provider
